@@ -10,9 +10,13 @@ enum TokenID
  SQL_UNKNOWN = -1, // a character that is not part of SimpleSQL 
 
  SQL_EOS, // $ or EOF
+ 
  SQL_SEMI_COLON, // ;
+ 
  SQL_LEFT_PAREN, // (
+ 
  SQL_RIGHT_PAREN, // )
+ 
  SQL_ASTERISK, // *
  SQL_DOT, // .
  SQL_HASH, // #
