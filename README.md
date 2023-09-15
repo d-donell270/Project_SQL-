@@ -8,7 +8,6 @@ Here is the complete list of tokens of keywords and characters that the scanner 
 enum TokenID
 {
  SQL_UNKNOWN = -1, // a character that is not part of SimpleSQL 
-
  SQL_EOS, // $ or EOF
  
  SQL_SEMI_COLON, // ;
