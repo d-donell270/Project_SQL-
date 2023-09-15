@@ -44,33 +44,59 @@ enum TokenID
  SQL_STR_LITERAL, // e.g. "hello cs211" or 'hello cs211'
  
  SQL_IDENTIFIER, // e.g. title or Count_2 or X
+ 
  //
  // keywords:
  //
+ 
  SQL_KEYW_ASC, // case insensitive, e.g. "ASC" or "Asc" or "asc"
+ 
  SQL_KEYW_AVG,
+ 
  SQL_KEYW_BY,
+ 
  SQL_KEYW_COUNT,
+ 
  SQL_KEYW_DELETE,
+ 
  SQL_KEYW_DESC,
+ 
  SQL_KEYW_FROM,
+ 
  SQL_KEYW_INNER,
+ 
  SQL_KEYW_INSERT,
+ 
  SQL_KEYW_INTERSECT,
+ 
  SQL_KEYW_INTO,
+ 
  SQL_KEYW_JOIN,
+ 
  SQL_KEYW_LIKE,
+ 
  SQL_KEYW_LIMIT,
+ 
  SQL_KEYW_MAX,
+ 
  SQL_KEYW_MIN,
+ 
  SQL_KEYW_ON,
+ 
  SQL_KEYW_ORDER,
+ 
 SQL_KEYW_SELECT,
+
  SQL_KEYW_SET,
+ 
  SQL_KEYW_SUM,
+ 
  SQL_KEYW_UNION,
+ 
  SQL_KEYW_UPDATE,
+ 
  SQL_KEYW_VALUES,
+ 
  SQL_KEYW_WHERE
 };
 
