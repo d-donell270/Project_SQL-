@@ -43,7 +43,7 @@ enum TokenID
  
  SQL_STR_LITERAL, // e.g. "hello cs211" or 'hello cs211'
  
-SQL_IDENTIFIER, // e.g. title or Count_2 or X
+ SQL_IDENTIFIER, // e.g. title or Count_2 or X
  //
  // keywords:
  //
