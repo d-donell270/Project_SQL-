@@ -101,6 +101,9 @@ SQL_KEYW_SELECT,
 };
 
 Making up queries from the above enumerated info, you can run queries on the relational database, Movielens , provided with the following info:
+
 Movies table with ID, Title, Year, Revenue columns
+
 Ratings table with ID, Rating columns
+
 Genres table with ID, Genre columns
