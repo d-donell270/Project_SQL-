@@ -1,9 +1,9 @@
 # Project_SQL
 
-# The overall project is to build an SQL execution environment called SimpleSQL. Test database given is MovieLens,
- # and for example, the following input string query can be run for results: Select * from Movies where Title like '%matrix%';
+The overall project is to build an SQL execution environment called SimpleSQL. Test database given is MovieLens,
+and for example, the following input string query can be run for results: Select * from Movies where Title like '%matrix%';
 
-# Here is the complete list of tokens of keywords and characters that the scanner recognizes From “token.h”:
+Here is the complete list of tokens of keywords and characters that the scanner recognizes From “token.h”:
 
 enum TokenID
 {
@@ -56,8 +56,7 @@ SQL_KEYW_SELECT,
  SQL_KEYW_WHERE
 };
 
-# Making up queries from the above enumerated info, you can run queries on the relational database, Movielens , provided with the following info:
-
-# Movies table with ID, Title, Year, Revenue columns
-# Ratings table with ID, Rating columns
-# Genres table with ID, Genre columns
+Making up queries from the above enumerated info, you can run queries on the relational database, Movielens , provided with the following info:
+Movies table with ID, Title, Year, Revenue columns
+Ratings table with ID, Rating columns
+Genres table with ID, Genre columns
