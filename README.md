@@ -18,18 +18,31 @@ enum TokenID
  SQL_RIGHT_PAREN, // )
  
  SQL_ASTERISK, // *
+ 
  SQL_DOT, // .
+ 
  SQL_HASH, // #
+ 
  SQL_COMMA, // ,
+ 
  SQL_EQUAL, // =
+ 
  SQL_GT, // >
+ 
  SQL_GTE, // >=
+ 
  SQL_LT, // <
+ 
  SQL_LTE, // <=
+ 
  SQL_NOT_EQUAL, // <>
+ 
  SQL_INT_LITERAL, // e.g. 123
+ 
  SQL_REAL_LITERAL, // e.g. 12. or 3.14159
+ 
  SQL_STR_LITERAL, // e.g. "hello cs211" or 'hello cs211'
+ 
  SQL_IDENTIFIER, // e.g. title or Count_2 or X
  //
  // keywords:
